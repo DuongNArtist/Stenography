@@ -1,0 +1,13 @@
+D:\Microsoft\Projects\CSharpWatermark\CSharpWatermark\bin\Debug\Stenography.exe.config
+D:\Microsoft\Projects\Stenography\Stenography\bin\Debug\Stenography.exe.config
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.csprojResolveAssemblyReference.cache
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.DatabaseControl.resources
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.ImageControl.resources
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.MainForm.resources
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.Properties.Resources.resources
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.TextControl.resources
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.csproj.GenerateResource.Cache
+D:\Microsoft\Projects\Stenography\Stenography\bin\Debug\Stenography.exe
+D:\Microsoft\Projects\Stenography\Stenography\bin\Debug\Stenography.pdb
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.exe
+D:\Microsoft\Projects\Stenography\Stenography\obj\Debug\Stenography.pdb

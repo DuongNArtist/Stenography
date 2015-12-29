@@ -1,0 +1,14 @@
+D:\Microsoft\Projects\Watermark\Watermark\bin\Debug\HDWatermark.exe.config
+D:\Microsoft\Projects\HDWatermark\HDWatermark\bin\Debug\HDWatermark.exe.config
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.Properties.Resources.resources
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.csproj.GenerateResource.Cache
+D:\Microsoft\Projects\HDWatermark\HDWatermark\bin\Debug\HDWatermark.exe
+D:\Microsoft\Projects\HDWatermark\HDWatermark\bin\Debug\HDWatermark.pdb
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.exe
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.pdb
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.frmMain.resources
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.ctrEmbedText.resources
+D:\Microsoft\Projects\HDWatermark\HDWatermark\obj\Debug\HDWatermark.ctrEmbedImage.resources
+D:\Microsoft\Projects\Watermark\HDWatermark\bin\Debug\HDWatermark.exe.config
+D:\Microsoft\Projects\Watermark\HDWatermark\obj\Debug\HDWatermark.exe
+D:\Microsoft\Projects\Watermark\HDWatermark\obj\Debug\HDWatermark.pdb
