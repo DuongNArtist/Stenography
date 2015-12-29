@@ -173,8 +173,8 @@
             // 
             // lvwImages
             // 
-            this.lvwImages.BackColor = System.Drawing.Color.White;
-            this.lvwImages.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lvwImages.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.lvwImages.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lvwImages.GridLines = true;
             this.lvwImages.Location = new System.Drawing.Point(0, 0);
             this.lvwImages.Margin = new System.Windows.Forms.Padding(0);

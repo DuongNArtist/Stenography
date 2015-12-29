@@ -176,8 +176,8 @@
             // 
             // txtText
             // 
-            this.txtText.BackColor = System.Drawing.Color.White;
-            this.txtText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.txtText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtText.Location = new System.Drawing.Point(0, 0);
             this.txtText.Margin = new System.Windows.Forms.Padding(0);

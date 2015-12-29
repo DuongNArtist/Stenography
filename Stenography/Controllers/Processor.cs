@@ -52,7 +52,7 @@ namespace Stenography
         {
             string strEmbed = GetStringFromBytes(ImageToDatabase(bmpData));
             string strData = password.PadLeft(16, ' ') + strEmbed.Length + IMG + strEmbed;
-            System.Windows.Forms.MessageBox.Show(strData);
+            //System.Windows.Forms.MessageBox.Show(strData);
             BitArray bits = GetBitsFromString(strData);
             Bitmap target = EmbedBitsToBitmap(bmpSource, bits);
             return target;
@@ -61,7 +61,7 @@ namespace Stenography
         public static Bitmap EmbedStringToBitmap(Bitmap source, string strEmbed, string password)
         {
             string strData = password.PadLeft(16, ' ') + strEmbed.Length + TXT + strEmbed;
-            System.Windows.Forms.MessageBox.Show(strData);
+            //System.Windows.Forms.MessageBox.Show(strData);
             BitArray bits = GetBitsFromString(strData);
             Bitmap target = EmbedBitsToBitmap(source, bits);
             return target;
