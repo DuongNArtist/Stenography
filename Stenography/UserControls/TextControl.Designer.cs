@@ -177,7 +177,7 @@
             // txtText
             // 
             this.txtText.BackColor = System.Drawing.Color.White;
-            this.txtText.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtText.Location = new System.Drawing.Point(0, 0);
             this.txtText.Margin = new System.Windows.Forms.Padding(0);
@@ -204,7 +204,7 @@
             this.prgDoing.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.prgDoing.TabIndex = 70;
             // 
-            // EmbedTextControl
+            // TextControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -220,7 +220,7 @@
             this.Controls.Add(this.txtPassword);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Name = "EmbedTextControl";
+            this.Name = "TextControl";
             this.Size = new System.Drawing.Size(640, 360);
             this.ResumeLayout(false);
             this.PerformLayout();

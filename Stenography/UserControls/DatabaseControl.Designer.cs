@@ -157,7 +157,6 @@
             // 
             // txtName
             // 
-            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtName.Location = new System.Drawing.Point(7, 332);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(230, 23);
@@ -185,7 +184,7 @@
             this.lvwImages.UseCompatibleStateImageBehavior = false;
             this.lvwImages.SelectedIndexChanged += new System.EventHandler(this.lvwImages_SelectedIndexChanged);
             // 
-            // ConnectDatabaseControl
+            // DatabaseControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,7 +199,7 @@
             this.Controls.Add(this.btnInsert);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Name = "ConnectDatabaseControl";
+            this.Name = "DatabaseControl";
             this.Size = new System.Drawing.Size(640, 360);
             this.Load += new System.EventHandler(this.ConnectDatabaseControl_Load);
             this.ResumeLayout(false);

@@ -75,6 +75,7 @@
             // picImage
             // 
             this.picImage.BackColor = System.Drawing.Color.White;
+            this.picImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picImage.Location = new System.Drawing.Point(0, 0);
             this.picImage.Margin = new System.Windows.Forms.Padding(0);
             this.picImage.Name = "picImage";
@@ -199,7 +200,7 @@
             this.prgDoing.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.prgDoing.TabIndex = 61;
             // 
-            // EmbedImageControl
+            // ImageControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -216,7 +217,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Margin = new System.Windows.Forms.Padding(0);
-            this.Name = "EmbedImageControl";
+            this.Name = "ImageControl";
             this.Size = new System.Drawing.Size(640, 360);
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             this.ResumeLayout(false);

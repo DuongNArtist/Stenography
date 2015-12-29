@@ -79,9 +79,9 @@ namespace Stenography
                 string text = Processor.GetEmbededStringFromBitmap(source, password);
                 this.Invoke((MethodInvoker)delegate
                 {
-                   txtText.Text = text;
-                   prgDoing.Hide();
-                   MessageBox.Show("Đã giải mã xong!");
+                    txtText.Text = text;
+                    prgDoing.Hide();
+                    MessageBox.Show("Đã giải mã xong!");
                 });
             }
         }
@@ -93,7 +93,7 @@ namespace Stenography
             prgDoing.Hide();
             Hide();
             frmWatermark.pnlEmbedded.Hide();
-            
+
         }
     }
 }
