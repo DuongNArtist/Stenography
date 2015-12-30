@@ -237,7 +237,7 @@ namespace Stenography
                     }
                 }
             }
-            System.Windows.Forms.MessageBox.Show("Mật khẩu không chính xác!");
+            System.Windows.Forms.MessageBox.Show("Wrong password!");
             return null;
         }
 
@@ -269,7 +269,7 @@ namespace Stenography
                     }
                 }
             }
-            System.Windows.Forms.MessageBox.Show("Mật khẩu không chính xác!");
+            System.Windows.Forms.MessageBox.Show("Wrong password!");
             return null;
         }
 

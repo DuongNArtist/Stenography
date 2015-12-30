@@ -63,7 +63,7 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(80, 50);
             this.btnDelete.TabIndex = 64;
-            this.btnDelete.Text = "Xóa bỏ";
+            this.btnDelete.Text = "Delete";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -85,7 +85,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(80, 50);
             this.btnClose.TabIndex = 63;
-            this.btnClose.Text = "Đóng";
+            this.btnClose.Text = "Close";
             this.btnClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -107,7 +107,7 @@
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(80, 50);
             this.btnSelect.TabIndex = 62;
-            this.btnSelect.Text = "Làm mới";
+            this.btnSelect.Text = "Refresh";
             this.btnSelect.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSelect.UseVisualStyleBackColor = false;
             // 
@@ -128,7 +128,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(80, 50);
             this.btnUpdate.TabIndex = 61;
-            this.btnUpdate.Text = "Cập nhật";
+            this.btnUpdate.Text = "Update";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -150,7 +150,7 @@
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(80, 50);
             this.btnInsert.TabIndex = 60;
-            this.btnInsert.Text = "Thêm mới";
+            this.btnInsert.Text = "Insert";
             this.btnInsert.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnInsert.UseVisualStyleBackColor = false;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
@@ -167,9 +167,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(4, 314);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 15);
+            this.label1.Size = new System.Drawing.Size(39, 15);
             this.label1.TabIndex = 66;
-            this.label1.Text = "Tên Ảnh";
+            this.label1.Text = "Name";
             // 
             // lvwImages
             // 

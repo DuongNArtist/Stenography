@@ -47,15 +47,17 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(164, 314);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 15);
+            this.label1.Size = new System.Drawing.Size(57, 15);
             this.label1.TabIndex = 68;
-            this.label1.Text = "Mật Khẩu";
+            this.label1.Text = "Password";
             // 
             // txtPassword
             // 
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtPassword.Location = new System.Drawing.Point(163, 333);
+            this.txtPassword.MaxLength = 16;
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(234, 23);
             this.txtPassword.TabIndex = 62;
             // 
@@ -70,14 +72,14 @@
             this.btnDecode.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
             this.btnDecode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDecode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnDecode.Image = global::Stenography.Properties.Resources.encode;
+            this.btnDecode.Image = global::Stenography.Properties.Resources.decode;
             this.btnDecode.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnDecode.Location = new System.Drawing.Point(480, 310);
             this.btnDecode.Margin = new System.Windows.Forms.Padding(0);
             this.btnDecode.Name = "btnDecode";
             this.btnDecode.Size = new System.Drawing.Size(80, 50);
             this.btnDecode.TabIndex = 67;
-            this.btnDecode.Text = "Giải mã";
+            this.btnDecode.Text = "Decode";
             this.btnDecode.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDecode.UseVisualStyleBackColor = false;
             this.btnDecode.Click += new System.EventHandler(this.btnDecode_Click);
@@ -100,7 +102,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(80, 50);
             this.btnClose.TabIndex = 66;
-            this.btnClose.Text = "Đóng";
+            this.btnClose.Text = "Close";
             this.btnClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -123,7 +125,7 @@
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(80, 50);
             this.btnOpen.TabIndex = 65;
-            this.btnOpen.Text = "Mở";
+            this.btnOpen.Text = "Open";
             this.btnOpen.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOpen.UseVisualStyleBackColor = false;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
@@ -146,7 +148,7 @@
             this.btnEncode.Name = "btnEncode";
             this.btnEncode.Size = new System.Drawing.Size(80, 50);
             this.btnEncode.TabIndex = 64;
-            this.btnEncode.Text = "Mã hóa";
+            this.btnEncode.Text = "Encode";
             this.btnEncode.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEncode.UseVisualStyleBackColor = false;
             this.btnEncode.Click += new System.EventHandler(this.btnEncode_Click);
@@ -169,7 +171,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(80, 50);
             this.btnSave.TabIndex = 63;
-            this.btnSave.Text = "Lưu";
+            this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);

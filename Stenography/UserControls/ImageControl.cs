@@ -93,7 +93,7 @@ namespace Stenography
                 {
                     frmWatermark.picBitmap.Image = target;
                     prgDoing.Hide();
-                    MessageBox.Show("Đã mã hóa xong!");
+                    MessageBox.Show("Image is encoded!");
                 });
             }
         }
@@ -115,7 +115,7 @@ namespace Stenography
                 {
                     picImage.Image = data;
                     prgDoing.Hide();
-                    MessageBox.Show("Đã giải mã xong!");
+                    MessageBox.Show("Image is decoded!");
                 });
             }
         }

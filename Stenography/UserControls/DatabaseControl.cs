@@ -78,16 +78,17 @@ namespace Stenography
                 if (result > 0)
                 {
                     RefreshList();
-                    MessageBox.Show("Thêm mới hình ảnh " + name + " thành công!");
-                } else
+                    MessageBox.Show("Image '" + name + "' inserted succeed!");
+                }
+                else
                 {
-                    MessageBox.Show("Thêm mới hình ảnh " + name + " không thành công!");
+                    MessageBox.Show("Image '" + name + "' updated failed!");
                 }
             }
             else
             {
                 txtName.Focus();
-                MessageBox.Show("Mời bạn nhập tên cho hình ảnh!");
+                MessageBox.Show("Please enter a name for image!");
             }
         }
 
@@ -107,16 +108,16 @@ namespace Stenography
                         if (result > 0)
                         {
                             RefreshList();
-                            MessageBox.Show("Cập nhật hình ảnh " + name + " thành công!");
+                            MessageBox.Show("Image '" + name + "' updated succeed!");
                         }
                         else
                         {
-                            MessageBox.Show("Cập nhật hình ảnh " + name + " không thành công!");
+                            MessageBox.Show("Image '" + name + "' updated failed!");
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Mời bạn nhập tên cho hình ảnh!");
+                        MessageBox.Show("Please enter a name for image!");
                     }
                 }
             }
@@ -134,11 +135,11 @@ namespace Stenography
                     txtName.Clear();
                     frmWatermark.picBitmap.Image = null;
                     RefreshList();
-                    MessageBox.Show("Xóa bỏ hình ảnh " + name + " thành công!");
+                    MessageBox.Show("Image '" + name + "' deleted succeed!");
                 }
                 else
                 {
-                    MessageBox.Show("Xóa bỏ hình ảnh " + name + " không thành công!");
+                    MessageBox.Show("Image '" + name + "' deleted failed!");
                 }
             }
         }
